@@ -1,0 +1,7 @@
+<ul>
+<% @hats.each do |hat| %>
+  <%= render_partial "display", {
+    head_gear: hat
+  } %>
+<% end %>
+</ul>
